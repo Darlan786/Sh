@@ -1,0 +1,44 @@
+echo "🌟 Iniciando a gloriosa configuração do seu repositório Git... 🌟"
+# Navegar até o diretório do projeto
+cd /caminho/do/seu/projeto && \
+echo "🚀 Diretório alterado para /caminho/do/seu/projeto" && \
+
+# Inicializar o repositório Git
+git init && \
+echo "✨ Repositório Git inicializado com sucesso! ✨" && \
+
+# Adicionar todos os arquivos ao staging area
+git add . && \
+echo "📂 Todos os arquivos foram adicionados ao staging area! 📂" && \
+
+# Fazer o primeiro commit
+git commit -m "Primeiro commit" && \
+echo "✅ Primeiro commit realizado com maestria! ✅" && \
+
+# Configurar o repositório remoto
+git remote add origin https://github.com/seu-usuario/seu-repositorio.git && \
+echo "🔗 Repositório remoto configurado! 🔗" && \
+
+# Renomear o branch principal para 'main'
+git branch -M main && \
+echo "🌿 Branch principal renomeado para 'main' com sucesso! 🌿" && \
+
+# Fazer o push para o repositório remoto
+git push -u origin main && \
+echo "🌍 Push realizado com sucesso para o repositório remoto! 🌍" && \
+
+# Mostrar status final do repositório
+git status && \
+echo "📊 Status do repositório exibido! 📊" && \
+
+# Exibir os últimos commits realizados
+git log --oneline && \
+echo "📜 Últimos commits exibidos com perfeição! 📜" && \
+
+# Exibir lista de branches do repositório
+git branch -a && \
+echo "🌳 Lista de branches do repositório exibida! 🌳" && \
+
+# Confirmação final
+echo "🏆 Processo completo! O repositório Git foi configurado com absoluto sucesso: todos os arquivos foram adicionados, o commit foi realizado, o repositório remoto foi configurado, o branch principal foi renomeado, o push foi feito, e o status do repositório foi verificado e exibido! 🏆"
+
